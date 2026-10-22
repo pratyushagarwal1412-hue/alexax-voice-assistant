@@ -1,0 +1,28 @@
+{
+  "name": "alexax-voice-assistant",
+  "version": "1.0.0",
+  "description": "AlexaX — Your Personal AI Agent with Model Context Protocol (MCP) and Voice Interaction",
+  "private": true,
+  "scripts": {
+    "setup": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "npm run dev --prefix server",
+    "build:server": "npm run build --prefix server",
+    "build:client": "npm run build --prefix client",
+    "build": "npm run build:client && npm run build:server",
+    "start": "npm start --prefix server",
+    "test": "npm test --prefix server"
+  },
+  "keywords": [
+    "alexax",
+    "alexa-plus",
+    "ai-agent",
+    "voice-assistant",
+    "mcp",
+    "model-context-protocol",
+    "sqlite"
+  ],
+  "author": "Google DeepMind pair programming",
+  "license": "MIT"
+}
